@@ -55,7 +55,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (password_verify($password, $existLogin['password'])) {
             $Msg = 'Вы успешно авторизированы';
         } else {
-            $Msg = 'Вы успешно авторизированы';
+            $Msg = 'Пароль введен неправильно';
         }
     }
 }

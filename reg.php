@@ -64,9 +64,9 @@ include "app/database/users.php";
         <div class="wood-board">
             <div class="school__form reg-style">
                 <p>Pixels Daily</p>
-                <form method="post" action="log.php">
+                <form method="post" action="reg.php">
                     <label>Username<input name="login" type="text"></label>
-                    <label>Password<input name="password" type="password"></label>
+                    <label>Email<input name="mail" type="text"></label>
                     <label>Password<input name="password" type="password"></label>
                     <input type="image" src='dist/img/login_button.png' alt="Submit" />
                     <div class="error"><?php echo $Msg; ?></div>
