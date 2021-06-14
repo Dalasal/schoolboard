@@ -1,0 +1,8 @@
+bower_components
+node_modules
+vendor
+nbproject
+.idea
+*.log
+app/storage
+image/*

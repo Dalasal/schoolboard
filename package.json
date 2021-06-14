@@ -1,0 +1,24 @@
+{
+  "name": "gulp-browsersync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-terser": "^1.4.0",
+    "postcss": "^8.1.2",
+    "sass": "^1.32.12"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
