@@ -14,9 +14,11 @@
             'email' => $email,
             'password' => $password,
         ];
+
         $checkMail = [
             'email' => $email,
         ];
+
         $checkLogin = [
             'username' => $username,
         ];
@@ -42,11 +44,9 @@
         }
         else {
             insertData('users', $logs);
+            $errMsg = "Вы успешно зарегистрировались!";
         }
 
     }else {
-        echo '';
+        $errMsg = '';
     }
-    // echo $_SERVER['REQUEST_METHOD'];
-
-?>

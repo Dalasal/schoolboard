@@ -5,10 +5,10 @@ const cssnano = require('cssnano');
 
 // Sass Task
 function scssTask(){
-  return src('app/scss/style.scss', { sourcemaps: true })
+  return src('app/scss/style.scss')
     .pipe(sass())
     .pipe(postcss([cssnano()]))
-    .pipe(dest('dist', { sourcemaps: '.' }));
+    .pipe(dest('dist'));
 }
 
 

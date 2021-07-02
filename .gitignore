@@ -6,3 +6,4 @@ nbproject
 *.log
 app/storage
 image/*
+app/database/config.php

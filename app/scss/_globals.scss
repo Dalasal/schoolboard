@@ -7,7 +7,6 @@ html {
   }
   
   *, *:before, *:after {
-    //box-sizing: inherit;
     margin: 0;
     padding: 0;  
   }
@@ -146,7 +145,6 @@ font-size: 18px;
 color: red;
 }
 .all {
-margin: 0;
 padding: 0;
 padding-top: 100px;
 display: flex;
